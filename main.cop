@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+
+	string imput;
+	string rock = "R";
+	string s = "S";
+	string paper = "P";
+	string yes = "y";
+
+	cout << "Hello best out of one R/P/S\n";
+	
+	cin >> imput;
+	
+	if(imput == rock){
+		cout  << "S, i win";
+		cin << imput;
+		
+	}
+
+    return 0;
+}
+
